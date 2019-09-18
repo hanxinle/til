@@ -3,13 +3,22 @@
 来源：知乎
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-我尝试用类比的方法来解释一下 pull reqeust。想想我们中学考试，老师改卷的场景吧。你做的试卷就像仓库，你的试卷肯定会有很多错误，就相当于程序里的 bug。老师把你的试卷拿过来，相当于先 fork。在你的卷子上做一些修改批注，相当于 git commit。最后把改好的试卷给你，相当于发 pull request，你拿到试卷重新改正错误，相当于 merge。当你想更正别人仓库里的错误时，要走一个流程：先 fork 别人的仓库，相当于拷贝一份，相信我，不会有人直接让你改修原仓库的clone 到本地分支，做一些 bug fix发起 pull request 给原仓库，让他看到你修改的 bug原仓库 review 这个 bug，如果是正确的话，就会 merge 到他自己的项目中至此，整个 pull request 的过程就结束了。理解了 pull request 的含义和流程，具体操作也就简单了。以 Github 排名最高的 https://github.com/twbs/bootstrap 为例说明。1. 先点击 fork 仓库，项目现在就在你的账号下了<img src="https://pic3.zhimg.com/50/0d01d6aa4cc4330c525347e5b0a0ecb8_hd.jpg" data-rawwidth="2054" data-rawheight="530" class="origin_image zh-lightbox-thumb" width="2054" data-original="https://pic3.zhimg.com/0d01d6aa4cc4330c525347e5b0a0ecb8_r.jpg"/><img src="https://pic1.zhimg.com/50/6aaed35908e74de871fcbed7c5affb0e_hd.jpg" data-rawwidth="2010" data-rawheight="506" class="origin_image zh-lightbox-thumb" width="2010" data-original="https://pic1.zhimg.com/6aaed35908e74de871fcbed7c5affb0e_r.jpg"/>2. 在你自己的机器上 git clone 这个仓库，切换分支（也可以在 master 下），做一些修改。~  git clone https://github.com/beepony/bootstrap.git
+我尝试用类比的方法来解释一下 pull reqeust。想想我们中学考试，老师改卷的场景吧。你做的试卷就像仓库，你的试卷肯定会有很多错误，就相当于程序里的 bug。
+老师把你的试卷拿过来，相当于先 fork。在你的卷子上做一些修改批注，相当于 git commit。最后把改好的试卷给你，相当于发 pull request，你拿到试卷重新
+改正错误，相当于 merge。当你想更正别人仓库里的错误时，要走一个流程：先 fork 别人的仓库，相当于拷贝一份，相信我，不会有人直接让你改修原仓库的clone 
+到本地分支，做一些 bug fix发起 pull request 给原仓库，让他看到你修改的 bug原仓库 review 这个 bug，如果是正确的话，就会 merge 到他自己的项目中
+至此，整个 pull request 的过程就结束了。理解了 pull request 的含义和流程，具体操作也就简单了。以 Github 排名最高的
+https://github.com/twbs/bootstrap 为例说明。
+1. 先点击 fork 仓库，项目现在就在你的账号下了
+2. 在你自己的机器上 git clone 这个仓库，切换分支（也可以在 master 下），做一些修改。
+~  git clone https://github.com/beepony/bootstrap.git
 ~  cd bootstrap
 ~  git checkout -b test-pr
 ~  git add . && git commit -m "test-pr"
-~  git push origin test-pr3. 完成修改之后，回到 test-pr 分支，点击旁边绿色的 Compare & pull request 按钮<img src="https://pic2.zhimg.com/50/3e1ac7f58774a79a5dd6bf8e852e4199_hd.jpg" data-rawwidth="2010" data-rawheight="476" class="origin_image zh-lightbox-thumb" width="2010" data-original="https://pic2.zhimg.com/3e1ac7f58774a79a5dd6bf8e852e4199_r.jpg"/>4. 添加一些注释信息，确认提交<img src="https://pic3.zhimg.com/50/f5ed68dfe4d60fe90e2fb22ec1933006_hd.jpg" data-rawwidth="1658" data-rawheight="1294" class="origin_image zh-lightbox-thumb" width="1658" data-original="https://pic3.zhimg.com/f5ed68dfe4d60fe90e2fb22ec1933006_r.jpg"/>5. 仓库作者看到，你提的确实是对的，就会 merge，合并到他的项目中以上就是 pull reqesut 的整个流程，希望对你有帮助～
+~  git push origin test-pr3. 
+3. 完成修改之后，回到 test-pr 分支，点击旁边绿色的 Compare & pull request 按钮
+4. 添加一些注释信息，确认提交
+5. 仓库作者看到，你提的确实是对的，就会 merge，合并到他的项目中以上就是 pull reqesut 的整个流程.
 
-
-https://www.zhihu.com/question/21682976/answer/79489643
 
 
