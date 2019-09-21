@@ -8,5 +8,5 @@
 * [数字图像处理(matlab)](https://github.com/hanxinle/matlab_image_processing)
 * [实用机器学习](https://github.com/hanxinle/practical_machine_learning)
   * [Python开发环境配置](https://github.com/hanxinle/practical_machine_learning/blob/master/0_get_start/get_start_python.md)
-* [MPICH在Cluster上配置(并行计算工具)](https://www.cnblogs.com/hanxinle/p/7688753.html)
+* [MPICH在集群上配置(并行计算工具)](https://www.cnblogs.com/hanxinle/p/7688753.html)
 
