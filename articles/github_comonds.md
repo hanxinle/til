@@ -29,9 +29,9 @@
 
 * 忽略特定格式文件格式
 
-  ```touch .gitignore  && vim .gitigonre ```
+   ```touch .gitignore  && vim .gitigonre ```
 
- ``` *.out *.py  # in .gitignore```
+   ``` *.out *.py  # in .gitignore```
 
     原有创建的格式用 git rm --cached <file_name> 忽略
     [常用工程的ignore文件](https://github.com/github/gitignore)
