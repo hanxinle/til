@@ -41,3 +41,23 @@
   ``` git reset (--mixed --hard --soft ) HEAD~(可换)     #自己查询参数```
 
   ``` git commit --amend 轻微修改,不进行新的提交```
+  
+  ### 远程repo
+  
+  * 查看分支
+  
+    ```git branch``` 
+  
+  * 创建分支
+  
+     ```git branch <branch_name```
+  
+  * 切换到分支
+  
+    ```git checkout <branch_name>```
+  
+  * 创建并且切换
+  
+     ```git checkout -b <branch_name>```
+  
+  * 
