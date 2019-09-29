@@ -60,10 +60,35 @@
   
      ```git checkout -b <branch_name>```
   
-* 分支合并
+* 分支合并(位于master)
 
+  ```git merge <sub_branch_name>```
+  
+  同步后可以删除这个子分支
+  
+  ```git branch -d <sub_branch_name>```
+  
 * 分支同步
 
+  ```git push origin <loacl_branch_name>```   将本地分支同步到服务器
+
 * 分支删除与重命名
+   
+  ```git brach -D/-d ``` #删除 see git -h
+  
+  远端分支重命名(创建本地分支-->同步到远端-->删除远端同名分支-->
+  
+  ```git checkout -b <local_branch>```
+  
+  ```git push origin <local_branch>```
+  
+  ```git push --delete origin <local_name>```
+  
+  ```git commit -m <local_name> <new_branch_name>```
+  
+  ```git push origin <new_branch_name>```
+  
 
 * tag 管理
+
+  网页端release中管理,和commit的哈希值相关.
