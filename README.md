@@ -12,3 +12,8 @@
 * [MPICH在集群上配置(并行计算工具)](https://www.cnblogs.com/hanxinle/p/7688753.html)
 * [给CV初学者的学习建议](https://github.com/hanxinle/blog/blob/master/articles/live_record_advice_for_cv_beginner.md)
 
+
+## 2019.10
+
+* [实用机器学习](https://github.com/hanxinle/practical_machine_learning)
+  * [Python开发环境配置](https://github.com/hanxinle/practical_machine_learning/blob/master/0_get_start/start_with_python.md)
