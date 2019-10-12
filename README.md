@@ -17,3 +17,4 @@
 
 * [实用机器学习](https://github.com/hanxinle/practical_machine_learning)
   * [Python开发环境配置](https://github.com/hanxinle/practical_machine_learning/blob/master/0_get_start/start_with_python.md)
+* [mysql从小工)到进阶](https://github.com/hanxinle/sql)
