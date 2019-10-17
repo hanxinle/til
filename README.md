@@ -17,4 +17,11 @@
 
 * [实用机器学习](https://github.com/hanxinle/practical_machine_learning)
   * [Python开发环境配置](https://github.com/hanxinle/practical_machine_learning/blob/master/0_get_start/start_with_python.md)
+  * [数据预处理](https://github.com/hanxinle/practical_machine_learning/tree/master/1_Data_Processing)
+  * [回归](https://gihub.com/hanxinle/practical_machine_learning/tree/master/2_Regression)
+  * [分类](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification)
+  * [聚类](https://github.com/hanxinle/practical_machine_learning/tree/master/4_Clustering)
+  * [关联规则](https://github.com/hanxinle/practical_machine_learning/tree/master/5_Apriori)
+  * [强化学习](https://github.com/hanxinle/practical_machine_learning/tree/master/6_Reinforcement%20Learning)
+  * [降维](https://github.com/hanxinle/practical_machine_learning/tree/master/7_Dimensionality%20Reduction)
 * [mysql从小工到进阶](https://github.com/hanxinle/sql)
