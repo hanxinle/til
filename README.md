@@ -25,3 +25,4 @@
   * [强化学习](https://github.com/hanxinle/practical_machine_learning/tree/master/6_Reinforcement%20Learning)
   * [降维](https://github.com/hanxinle/practical_machine_learning/tree/master/7_Dimensionality%20Reduction)
 * [mysql从小工到进阶](https://github.com/hanxinle/sql)
+* [(转)git commands by one file](https://github.com/hanxinle/blog/blob/master/articles/git_examples.sh)
