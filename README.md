@@ -26,3 +26,9 @@
   * [降维](https://github.com/hanxinle/practical_machine_learning/tree/master/7_Dimensionality%20Reduction)
 * [mysql从小工到进阶](https://github.com/hanxinle/sql)
 * [(转)git commands by one file](https://github.com/hanxinle/blog/blob/master/articles/git_examples.sh)
+
+
+## 2019.11
+
+* [自然语言处理]
+  * 基本概念
