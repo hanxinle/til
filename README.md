@@ -32,3 +32,7 @@
 
 * [自然语言处理]
   * 基本概念
+* [BEYOND Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
+   
+   PS: 不仅是随书代码,而是一套教程.
+* 
