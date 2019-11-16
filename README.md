@@ -35,4 +35,4 @@
 * [BEYOND Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
    
    PS: 不仅是随书代码,而是一套教程.
-* [自然语言处理 知识体系总结](https://www.cnblogs.com/hanxinle/p/11864806.html)
+* [自然语言处理 知识体系(博客)](https://www.cnblogs.com/hanxinle/p/11864806.html) [GitHub](https://github.com/hanxinle/nlp/blob/master/nlp_start.md)
