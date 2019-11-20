@@ -34,7 +34,7 @@
    
    PS: 不仅是随书代码,而是一套教程.
 * [自然语言处理 知识体系(博客)](https://www.cnblogs.com/hanxinle/p/11864806.html) [GitHub](https://github.com/hanxinle/nlp/blob/master/nlp_start.md)
-* [Spacy、NLTK教程]（https://github.com/hanxinle/nlp/tree/master/Spacy_NLTK）
+* [Spacy、NLTK教程](https://github.com/hanxinle/nlp/tree/master/Spacy_NLTK)
 * [对话机器人](https://github.com/hanxinle/nlp/tree/master/chatbot_)
   
   运用TF-IDF实现问答机器人，以及应用LSTM的推理机器人，能够根据事件的描述，推理出对该事件提问的正确答案。
