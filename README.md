@@ -38,3 +38,6 @@
 * [对话机器人](https://github.com/hanxinle/nlp/tree/master/chatbot_)
   
   运用TF-IDF实现问答机器人，以及应用LSTM的推理机器人，能够根据事件的描述，推理出对该事件提问的正确答案。
+* [剑指offer 第一版C++代码](https://github.com/hanxinle/job_interview_logs/tree/master/InterviewQuestions)
+
+  GitHub上有这些代码的Java版本作为参考，这些代码基于C++98&03，可以在学习过程中尝试更改这些代码，使其支持C++11或更高版本。
