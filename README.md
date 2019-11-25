@@ -45,3 +45,6 @@
 * [剑指offer 第一版C++代码](https://github.com/hanxinle/job_interview_logs/tree/master/InterviewQuestions)
 
   GitHub上有这些代码的Java版本作为参考，这些代码基于C++98&03，可以在学习过程中尝试更改这些代码，使其支持C++11或更高版本。
+* [系统设计大宝箱](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions)
+
+  关于系统设计，如何学习，面试准备，应有尽有的资料整理。
