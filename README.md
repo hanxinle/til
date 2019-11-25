@@ -1,6 +1,10 @@
-# 博客索引
-  
-该repo记录一些开发工具的使用及自己所做的工作,本repo用于文字记录,代码新建repo提供.
+# 文章索引
+
+
+2019-11-25 update: 基于Github建立了[博客](https://hanxinle.github.io/)，我会把自己曾经的工作逐渐迁移到这里：https://hanxinle.github.io/
+
+
+该repo (blog) 记录一些开发工具的使用,自己所做的工作,我会在这个README中给出链接，便于查询。
 
 ## 2019.9
 * [(转)GitHub教程-引子:pull request是什么含义?](https://github.com/hanxinle/blog/blob/master/articles/github-what%20is%20pull%20request.md)
