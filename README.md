@@ -48,3 +48,5 @@
 * [系统设计大宝箱](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions)
 
   关于系统设计，如何学习，面试准备，应有尽有的资料整理。
+
+* [日常学习打卡]（every_day_works.md）
