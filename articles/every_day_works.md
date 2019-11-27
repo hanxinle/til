@@ -1,4 +1,4 @@
-# 这是每天打开的记录
+# 每日打卡
 
 >从明天起，做一个幸福的人
 
@@ -34,4 +34,8 @@ touch xxx   #更新文件最后的访问时间
 ln -s #软连接，源文件被修改此文件会失效
 ln    #硬连接
 ```
+内联函数inline、常量const相关总结，在windows-dev这个repo中
 
+* 2019-11-27
+
+引用(在windows-dev/Cpp_Assembly中reference.md中查看）
