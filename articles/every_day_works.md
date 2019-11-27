@@ -95,3 +95,29 @@ git push
     git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
 
 则可以在得到与机器b一致的repo，PS，把两个操作存在[github_commands.md](github_commands.md)中。    
+
+* 2019-11-28
+
+1、编译与连接程序
+
+```bash
+#预处理,将头文件拷到源文件，宏定义替换
+g++ -E hello.cpp -o hello.i
+#编译，预处理的文件转变为汇编代码hello.s
+g++ -S hello.i 
+#汇编，将编译的结果生成二进制 hello.o
+g++ -c hello.s
+#链接，将上述过程的文件组合为可执行文件a.out（未用 -o指定输出文件的情形）
+g++ hello.o
+#执行，不可执行先运行 chmod +x a.out
+./a.out
+```
+2、makefile书写的模板
+
+```
+[变量]
+目标($@)：依赖($+)
+[TAP]执行语句$(变量)    
+```
+
+
