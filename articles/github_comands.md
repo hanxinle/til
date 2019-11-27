@@ -42,7 +42,40 @@
   ``` git reset (--mixed --hard --soft ) HEAD~(可换)     #自己查询参数```
 
   ``` git commit --amend 轻微修改,不进行新的提交```
-  
+
+* 解决push冲突
+
+   假设用户1修改了 xxx文件，并且push了，我这边再修改后push会提示拒绝，有冲突，查看冲突：
+
+    git diff master origin/master
+
+  建议将该文件备份，然后执行以下操作(备份，先拉取再合并）：
+
+```bash
+git pull
+vim xxx  #对其进行更改
+git add xxx
+git commit "my work"
+git push
+```
+### GitHub创建本地仓库缓存，在本地构建GitHub云端方法
+
+ 在机器a上执行
+
+    git init --bare /home/hanxinle/xdisk.git
+
+则在该机建立了一个暂存区。
+
+在机器b执行
+
+    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+
+则将repo拉取到本地，在本地创建文件等更改后，执行add,commit,push操作，其它机器执行
+
+    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+
+则可以在得到与机器b一致的repo.
+
 ### 远程repo
   
 * 查看分支

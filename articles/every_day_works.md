@@ -38,4 +38,60 @@ ln    #硬连接
 
 * 2019-11-27
 
-引用(在windows-dev/Cpp_Assembly中reference.md中查看）
+1、C++中引用的知识点。(在windows-dev/Cpp_Assembly中reference.md中查看）
+
+2、进程。windows中进程往往对应一个执行文件，Linux中，一个程序可以通过fork对应多个进程，进程有守护进程、前台进程（Cril+C终止）、后台进程（kill终止），进程查看用ps -ef命令，可以显示进程进程名、进程标识、父进程标识、时间等信息。终止进程，可以发送以数字表示的信号给进程，通知其结束，默认是15，等待所占用资源释放后再结束，直接发送kill -9 进程编号，可以直接杀死进程，pkill则是根据进程名字结束进程。PS：nginx常常用作前端，客户端基于线程，满足高并发需求。
+
+3、nohup可以将前台进程设置在后台执行，
+```bash
+# /dev/null/为删除输出信息，默认nohup.out中，也可以指定其他文件
+# &1标注输出，&2错误输出
+nohup tail -f /var/log/syslog > /dev/null/ &1 (标注输出) or &2(错误输出)
+```
+4、用户管理
+
+```
+# 添加用户(test)，设置密码，用户目录，添加组及该用户所属于的组
+
+useradd test
+passswd test
+su test # 切换到用户test
+pwd     # 当前路径 output:空
+
+useradd -m test -d /home/test -s /bin/bash
+groupadd cpp
+gpasswd -a test cpp
+```
+
+5、GitHub解决冲突
+
+假设用户1修改了 xxx文件，并且push了，我这边再修改后push会提示拒绝，有冲突，查看冲突：
+
+    git diff master origin/master
+
+建议将该文件备份，然后执行以下操作(备份，先拉取再合并）：
+
+```bash
+git pull
+vim xxx  #对其进行更改
+git add xxx
+git commit "my work"
+git push
+```
+6、GitHub创建本地仓库缓存，在本地构建GitHub云端方法
+
+在机器a上执行
+
+    git init --bare /home/hanxinle/xdisk.git
+
+则在该机建立了一个暂存区。
+
+在机器b执行
+
+    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+
+则将repo拉取到本地，在本地创建文件等更改后，执行add,commit,push操作，其它机器执行
+
+    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+
+则可以在得到与机器b一致的repo，PS，把两个操作存在[github_commands.md](github_commands.md)中。    
