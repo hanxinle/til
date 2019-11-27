@@ -94,4 +94,4 @@ git push
 
     git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
 
-则可以在得到与机器b一致的repo，PS，把两个操作存在[github_commands.md](github_comands.md)中。    
+则可以在得到与机器b一致的repo，PS，把两个操作存在[github_commands.md](github_commands.md)中。    
