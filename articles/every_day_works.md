@@ -132,3 +132,6 @@ g++ hello.o
 * 2019-11-29
 
 1、大事件：整理王老师代码留下来的编码规范，个人见过的最好的 <Personal C++ Coding Rules> 
+
+2、详细了解了socket编程中，IP、port含义，结构体socketaddr_in的内部结构、含义，inet_addr等函数的使用及其含义。
+
