@@ -175,4 +175,50 @@ int main ()  {
 }
 
 ```
+* 2019-12-4
 
+1、一旦定义了构造函数，必须使用其中一个初始化对象。
+
+2、使用new堆空间为对象分配空间会调用初始化构造函数，malloc不会调用构造函数。
+
+3、
+```c++
+Person {
+    int a;
+};
+
+Person p;    //不会调用构造函数
+p.a = 0;   
+
+Person1 {
+    int a= 0;
+};
+
+Person1 p1;  //调用构造函数
+
+Person2 {
+    int a;
+    Person2() {} //无这句，Person p2() 则是调用函数
+};
+
+Person2 p2(); //构造函数
+```
+
+4、全局区声明变量调用构造函数
+```c++
+Person {
+    int a;
+};
+
+Person p1;  //全局区调用构造函数
+
+//在声明了构造函数Person() {}后，无论全局区还是main函数中，*p = new Person 或者 *p = new Person()都会初始化构造函数，malloc不会调用构造函数。不确定的话，写程序查看，不同的编译器或许会有不同的处理。
+
+```
+5、查看堆、栈
+```c++
+Person * p  = new Person;  
+
+cout << p  << endl; //堆
+cout << &p << endl; //栈
+```
