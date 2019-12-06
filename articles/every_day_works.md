@@ -235,3 +235,42 @@ cout << &p << endl; //栈
 5、要想使用父类指针，要求继承类型是public。
 
 6、C++默认无多态这种情形，只根据指针类型调用函数。
+
+* 2019-12-6
+
+1、C++根据虚函数机制实现多态，借助基类指针（创建不同子类、基类类型），运行时决定执行函数。
+
+2、基类声明为虚函数，子类重新实现该函数，该函数还是虚函数，子类虚函数关键字“virtual”可以不接。
+
+```c++
+class Base {
+    virtual void run() {cout<<"Base::run()"<<endl;}
+};
+
+class A : public Base {
+    void run() {cout<<"A::run()"<<endl;}
+};
+
+class B : public Base {
+    void run() {cout<<"B::run()"<<endl;}
+};
+
+void testrun(Base * base)  {
+    base->run();
+}
+
+main {
+
+    //以下几种方法都可以
+    testrun(new A);
+    testrun(new B);
+
+    base * bA = new A;
+    bA -> run();
+
+    base * bB = new B;
+    bB -> run();
+
+}
+
+```
