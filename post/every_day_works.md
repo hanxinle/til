@@ -342,3 +342,42 @@ static变量访问、static函数设计，要考虑线程安全问题。
 
 5、lambda表达式，\[ \]中捕获变量分为值捕获或者地址捕获，默认值捕获，可以认为捕获到的是常量，mutable关键字可视为临时声明个变量等于捕获到的常量值，可以对该变量表征的常量进行自增运算，\[=\]表示值捕获。\[&a\]表示按地址捕获a，可以修改a的值，\[&\]代表地址捕获所有函数体中需要用到的变量。
 
+* 2019-12-13
+
+1、异常
+
+throw抛出异常，在本函数中寻找异常处理代码（catch),如果没有则会在上一层函数中寻找异常处理程序，直到main函数中，如果还没有异常处理程序，则程序终止。
+
+下面例子中，try捕获throw抛出的异常，cath根据捕获的异常类型对异常进行处理。devide（）抛出异常后，无异常处理代码，test（）捕获异常并且处理，main函数调用test(),如果产生异常，异常在test()中处理，不影响main中程序的执行。
+
+```c++
+int divide(int v1, int v2) throw(int) {  //声明时表征异常类型给接口调用者
+	if (v2 == 0) {
+		// 抛出异常
+		throw 666;
+        //throw "除数不能为0";
+	}
+	return v1 / v2;
+}
+
+void test() {
+	try {
+		int a = 10;
+		int b = 0;
+		int c =  divide(a, b) 
+        //产生异常后，thow后的代码不会被执行
+        c++;
+        cout <<"c = " << c << endl;
+        
+	} catch (int exception) {   //catch(...)则是捕获任意类型异常
+		cout << "产生异常了(int):" << exception << endl;
+	} catch (const char *exception) {
+		cout << "产生异常了(const char *):" << exception << endl;
+	}
+}
+
+int main ()  {
+    test();
+    return 0;
+}
+```
