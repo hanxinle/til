@@ -386,3 +386,7 @@ int main ()  {
 * 2019-12-14
 
 Ever tried, ever failed. No matter, try again, fail again, fail better. The world is yours.
+
+* 2019-12-15 
+
+1、Cheat Engine和0day的基本用法。
