@@ -407,4 +407,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 1、CPP_RULES，自己从Wangxm老师的编码中总结了一些编码规范。
 
-2、大飞码字上看到技术人员的好的品质：激情、进取、自学、乐观，深有同感。
+2、把《程序设计实践》中第一章风格相关内容二次读一遍，接下来是数据结构部分。
+
+3、大飞码字上看到技术人员的好的品质：激情、进取、自学、乐观，深有同感。
+
