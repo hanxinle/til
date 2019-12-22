@@ -433,7 +433,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 （2）<<构造型>>可以作为部分属性的标题，实质是创建新的模型元素解决实际问题。
 
-（3）关于UML如何组织的，请看![下图](../img/uml_sign.jpg)
+（3）关于UML如何组织的，请看![下图](../img/uml_conventions.png)
 
 其中最主要的是图中“关联”到“实现”的一些横线，这些线能够帮助梳理类间关系，是OOD的说明工具。
 
