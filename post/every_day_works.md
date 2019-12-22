@@ -449,4 +449,6 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 1、第一次直播，确定了两个星期后的任务，定制TCP协议。
 
-2、这两天休息时间过度，应该调整一下自己的作息规律。
+2、STL中最重要的是容器和算法，从这两个开始学习。
+
+3、这两天休息时间过度，应该调整一下自己的作息规律。
