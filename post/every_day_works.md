@@ -445,3 +445,8 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 3、TCPserver封装为类，这个还不太了解，需要去参考代码、实现。暂时想法，数据部分就是要传递的内容，每个server对象就是打开一个端口，等待客户端的输入信息。
 
+* 2019-12-22
+
+1、第一次直播，确定了两个星期后的任务，定制TCP协议。
+
+2、这两天休息时间过度，应该调整一下自己的作息规律。
