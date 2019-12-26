@@ -50,3 +50,7 @@
   关于系统设计，如何学习，面试准备，应有尽有的资料整理。
 
 * [日常学习打卡](articles/every_day_works.md)
+
+## 2019.12 
+* [第二届TVM与深度学习编译器会议总结](https://sampl.cs.washington.edu/tvmconf/)
+[视频链接](https://www.youtube.com/watch?v=npqO0hVXZwU&feature=youtu.be&list=PLTPQEx-31JXjA2ZmvYT5s0RqDXFXTSjyL&t=3542)（ PS：课件见会议链接）
