@@ -466,3 +466,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2019-12-31
 
 1、项目1的文档。
+
+* 2020-1-5
+
+1、代码评审存在的问题。（1）构造函数中不做业务相关的内容，因为出错不可控；（2）C++11中，成员声明的时候要初始化；（3）ip_用char ip_[16]，port用int，便于验证。
