@@ -470,3 +470,11 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-1-5
 
 1、代码评审存在的问题。（1）构造函数中不做业务相关的内容，因为出错不可控；（2）C++11中，成员声明的时候要初始化；（3）ip_用char ip_[16]，port用int，便于验证：（4）字符串无修改，记得加 const。
+
+* 2020-1-6
+
+1、libevent在Linux下 epoll（同步非阻塞)，在windows下是 Select模式；
+
+2、阻塞IO:BIO,同步非阻塞IO：NIO，异步非阻塞IO：AIO；
+
+3、阻塞（blocking)结果返回前，当前线程被挂起   —— socket；非阻塞（nonblocking) 结果返回前，线程不阻塞 —— epoll select;同步（Sync)功能调用无结果不返回，事情一件件做；异步（Async):功能调用后无结果立即返回，等待通知，一件事情没完成就可以做下一件。
