@@ -478,3 +478,9 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 2、阻塞IO:BIO,同步非阻塞IO：NIO，异步非阻塞IO：AIO；
 
 3、阻塞（blocking)结果返回前，当前线程被挂起   —— socket；非阻塞（nonblocking) 结果返回前，线程不阻塞 —— epoll select;同步（Sync)功能调用无结果不返回，事情一件件做；异步（Async):功能调用后无结果立即返回，等待通知，一件事情没完成就可以做下一件。
+
+* 2020-1-7
+
+1、libevent线程池（非阻塞多路复用机制，默认有锁，此项目要查代码）
+
+2、QT（信号槽机制，MVD，不使用MVC）
