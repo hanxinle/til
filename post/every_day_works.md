@@ -484,3 +484,9 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 1、libevent线程池（非阻塞多路复用机制，默认有锁，此项目要查代码）
 
 2、QT（信号槽机制，MVD，不使用MVC）
+
+* 2019-1-8
+
+1、云盘实战课程原型搭建，在多线程、libevent这里，自己有些迷惑，需要从这里开始补充。
+
+2、算法方面，滑动窗口法。
