@@ -485,12 +485,13 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 2、QT（信号槽机制，MVD，不使用MVC）
 
-* 2019-1-8
+* 2020-1-8
 
 1、云盘实战课程原型搭建，在多线程、libevent这里，自己有些迷惑，需要从这里开始补充。
 
 2、算法方面，滑动窗口法。
 
-* 2019-1-9
+* 2020-1-9,10
 
-1、上述两种算法的细节总结
+1、上述两种算法的细节总结,easy部分题有18页，嘿嘿
+
