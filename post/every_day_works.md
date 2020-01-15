@@ -495,6 +495,10 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 1、上述两种算法的细节总结,easy部分题有18页，嘿嘿
 
-* 2010-1-13,14
+* 2020-1-13,14
 
 1、http协议工作流程，TCP/IP、网卡的工作原理
+
+* 2020-1-15
+
+1、网络设备：集线器、交换机和路由器
