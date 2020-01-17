@@ -66,3 +66,4 @@
 * [2016 C++技术大会](http://boolan.com/lecture/cpp2016)
    * [吴咏wei演讲资料](https://github.com/adah1972/cpp_conf_china_2016)
 
+* [Vscode视频、文档](https://code.visualstudio.com/docs/getstarted/introvideos)
