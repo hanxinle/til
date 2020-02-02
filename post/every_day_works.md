@@ -509,4 +509,8 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 * 2020-1-17
 
-1、vscode
+1、
+
+* 2020-1-18
+
+回家过年遇上肺炎疫情。
