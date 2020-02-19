@@ -514,3 +514,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-1-18
 
 回家过年遇上肺炎疫情。
+
+* 2020-2-19
+
+1、异或运算，为不进位加法，满足交换律，结合律，与0异或值不变，可用于找连续数字的缺失值，及元素出现两次的数组中存在的唯一一个出现一次的元素，参看黑一本笔记。
