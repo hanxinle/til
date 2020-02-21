@@ -520,3 +520,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 1、异或运算，为不进位加法，满足交换律，结合律，与0异或值不变，可用于找连续数字的缺失值，及元素出现两次的数组中存在的唯一一个出现一次的元素，参看黑一本笔记。
 
 2、堆的作用，最小堆求最大的K的元素，最大堆求第K小的元素。
+
+* 2020-2-20
+
+1、stl初步，template、regex、memory、string、exception。项目：bitcion.cpp（未消化）。
