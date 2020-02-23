@@ -521,6 +521,12 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 2、堆的作用，最小堆求最大的K的元素，最大堆求第K小的元素。
 
-* 2020-2-20
+* 2020-2-21
 
 1、stl初步，template、regex、memory、string、exception。项目：bitcion.cpp（未消化）。
+
+* 2020-2-22
+
+1、stl之容器，完成了array、list、deque、map、vector，明天完成unordered_map和项目。
+
+
