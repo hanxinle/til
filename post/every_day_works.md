@@ -542,3 +542,15 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-11
 
 1、stl：algorithm完成 1/3；design_pattern 中template method、strategy。
+
+* 2020-3-20
+
+1、OS 中的process，及其在Linux下应用。
+
+* 2020-3-21
+
+处理器管理（进程）及存储管理初步。
+
+* 2020-3-22
+
+1、存储管理、文件管理、设备管理及各自系统构成。 
