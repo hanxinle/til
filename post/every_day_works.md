@@ -554,3 +554,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-22
 
 1、存储管理、文件管理、设备管理及各自系统构成。 
+
+* 2020-3-23
+
+1、线程同步（线程锁方法：互斥锁、旋转锁、读写锁、条件锁）。
