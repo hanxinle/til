@@ -558,3 +558,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-23
 
 1、线程同步（线程锁方法：互斥锁、旋转锁、读写锁、条件锁）。
+
+* 2020-3-24
+
+1、进程同步：共享内存、Unix 域套接字。
