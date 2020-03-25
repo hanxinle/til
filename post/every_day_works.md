@@ -562,3 +562,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-24
 
 1、进程同步：共享内存、Unix 域套接字。
+
+* 2020-3-25
+
+1、Pthon线程池。
