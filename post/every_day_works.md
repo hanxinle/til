@@ -566,3 +566,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-25
 
 1、Pthon线程池。
+
+* 2020-3-26
+
+1、异步处理。
