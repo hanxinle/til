@@ -565,7 +565,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 * 2020-3-25
 
-1、Pthon线程池。
+1、Python线程池。
 
 * 2020-3-26
 
@@ -574,3 +574,4 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-26
 
 1、工程编码实践项目,命令行菜单小程序。
+
