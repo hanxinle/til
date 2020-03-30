@@ -571,7 +571,10 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 1、异步处理。
 
-* 2020-3-26
+* 2020-3-28
 
 1、工程编码实践项目,命令行菜单小程序。
 
+* 2020-3-29
+
+1、总结命令行菜单小程序项目的得失。
