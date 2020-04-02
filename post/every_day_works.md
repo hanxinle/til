@@ -578,3 +578,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-3-29
 
 1、总结命令行菜单小程序项目的得失。
+
+* 2020-3-30~4-2
+
+1、计算机网络学习；2、买了一本关于如何提升学习效率的书籍；3、整理自己的资料；4、学习了 pdf 文件添加书签以及做笔记的新方法，提升学习效率。
