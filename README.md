@@ -49,7 +49,7 @@
 
   关于系统设计，如何学习，面试准备，应有尽有的资料整理。
 
-* [日常学习打卡](articles/every_day_works.md)
+* [日常学习打卡](post/every_day_works.md)
 
 ## 2019.12 
 * [第二届TVM与深度学习编译器会议总结](https://sampl.cs.washington.edu/tvmconf/)
