@@ -598,3 +598,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-4-10
 
 1、传输层 FIN；2、个人图腾：写作。
+
+* 2020-4-11
+
+1、网络结束。
