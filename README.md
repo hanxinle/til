@@ -71,3 +71,9 @@
 * [深入理解 Linux 程序设计源码](https://github.com/hanxinle/understanding-unix-linux-programming)
 
 * [大话计算机随书附赠的资料](https://github.com/hanxinle/bigtalk_about_computer)
+
+## 2020.4
+
+* [手撕 leetcode 算法题目](https://github.com/labuladong/fucking-algorithm)
+
+  语言比较朴素，可以看到是用自己的话总结的，理论部分还不够犀利、扎实，可以作为一个参考。
