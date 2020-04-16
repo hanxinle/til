@@ -602,3 +602,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-4-11
 
 1、网络结束。
+
+* 2020-4-12 ~ 16
+
+1、blog；2、common lisp env。
