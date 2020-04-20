@@ -606,3 +606,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-4-12 ~ 16
 
 1、blog；2、common lisp env。
+
+* 2020-4-17 ~ 20
+
+1、 some blog。
