@@ -618,3 +618,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 * 2020-4-22 
 
 1、memory
+
+* 2020-4-23
+
+1、thread.
