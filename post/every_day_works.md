@@ -635,4 +635,14 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 1、Linux、net 程序设计框架。
 
+* 2020-5-7
 
+>cd  source_dir
+> ctags -R
+
+(in vim)
+>:set tags= source_dir/tags
+
+C+] jump
+
+C+t back
