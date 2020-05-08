@@ -646,3 +646,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 C+] jump
 
 C+t back
+
+* 2020-5-8
+
+1. 封装了tcp，Linux 下.so 的生成与配置。
