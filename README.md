@@ -89,3 +89,4 @@
 
 * [Antlr4 语法](https://github.com/antlr/grammars-v4)
 * [红色警戒1 代码](https://github.com/electronicarts/CnC_Remastered_Collection)
+* [深入理解计算机系统的导读（关注博客）](https://www.cnblogs.com/figure9/archive/2010/04/10/1708942.html)
