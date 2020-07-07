@@ -99,6 +99,9 @@
 
 ## 2020.7
 * [milo yip 的 json 库教程](https://github.com/miloyip/json-tutorial)
+
 * [cpp template 2nd 翻译](https://github.com/Walton1128/CPP-Templates-2nd--)
+
 * [深度学习21天 随书资料](https://github.com/zhaoyongke/Caffe21Days)
+
 * [caffe windows](https://github.com/HolidayXue/CaffeMerge)
