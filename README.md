@@ -107,3 +107,11 @@
 * [caffe windows](https://github.com/HolidayXue/CaffeMerge)
 
 * [陈硕 TCP/IP notes](https://chenshuo.github.io/tcpip-study/)
+
+## 2020.8
+
+* [Let Over Lambda - src](https://github.com/hanxinle/let-over-lambda)
+
+* [on lisp](https://github.com/hanxinle/on-lisp)
+
+* [practical common lisp](https://github.com/hanxinle/practical-common-lisp)
