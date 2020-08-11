@@ -115,3 +115,5 @@
 * [on lisp](https://github.com/hanxinle/on-lisp)
 
 * [practical common lisp](https://github.com/hanxinle/practical-common-lisp)
+
+* [技术书籍源码汇总repo](https://github.com/hanxinle/books-src)
