@@ -112,9 +112,16 @@
 ## 2020.8
 
 * [Let Over Lambda - src](https://github.com/hanxinle/let-over-lambda)
-
 * [on lisp](https://github.com/hanxinle/on-lisp)
-
 * [practical common lisp](https://github.com/hanxinle/practical-common-lisp)
-
+ 
 * [技术书籍源码汇总repo](https://github.com/hanxinle/books-src)
+  
+* [xv6-mit](https://pdos.csail.mit.edu/6.828/2012/xv6.html)
+* [xv6 explained](https://github.com/YehudaShapira/xv6-explained)
+* [xv6 github](https://github.com/mit-pdos/xv6-public)
+* [xv6-with-doc](https://github.com/mit-pdos/xv6-riscv)
+  
+  PS：另有两本 xv6 的 pdf 文件位于仓库 books 中。
+
+

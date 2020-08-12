@@ -739,3 +739,7 @@ C+t back
 调整了 Linux-cpp-notes 中 cpp 文件夹的内容，记录了开发环境配置的文档，整理了汇编部分发现，自己上个阶段把知识点总结到了这个打卡的地方，有时间要把这部分内容集中到 Linux-cpp-notes 中 cpp 文件夹。
 
 把自己最近时间的工作，总结了，并且归类到三个项目文件，便于对自己的生活进行管理。
+
+* 2020-8-13
+
+早起把 cpp 资料汇总到 linux_cpp_notes 中，删掉了原本的 cpp-concepts (cpp-newbie,cpp-begin)。以 Projects 的形式注明自己最近在忙的事情，一共三个，开发及考试。
