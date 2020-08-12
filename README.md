@@ -1,10 +1,11 @@
-# 博客、资源索引
-
+# 博客、Github 内容索引
 
 2019-11-25 update: 基于 Github 建立了[博客](https://hanxinle.github.io/)，我会把自己曾经的工作逐渐迁移到这里：https://hanxinle.github.io/
 
 
 该 repo (blog) 记录一些开发工具的使用,自己所做的工作,我会在这个 README 中给出链接，便于查询。
+
+[每日打卡](./post/every_day_works.md)
 
 ## 2019.9
 * [(转)GitHub教程-引子: pull request 是什么含义?](post/what_is_pull_request.md)
