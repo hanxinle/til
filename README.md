@@ -124,4 +124,7 @@
   
   PS：另有两本 xv6 的 pdf 文件位于仓库 books 中。
 
+* [lynar moon engine-Youtube](https://www.youtube.com/watch?v=PzrJmXz6W7U&list=PLmvHLkJs7MrXB9tCf79HLtXggOyO9lUe1&index=3&t=0s)
+* [lynar moon engine-Youtube-github](https://github.com/LynarStudios/LEMoon)
+* [lynar moon engine-Udemy-Clion]()
 
