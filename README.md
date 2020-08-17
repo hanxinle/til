@@ -1,11 +1,12 @@
 # 博客、Github 内容索引
 
-2019-11-25 update: 基于 Github 建立了[博客](https://hanxinle.github.io/)，我会把自己曾经的工作逐渐迁移到这里：https://hanxinle.github.io/
+我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。
 
+这个repo (til) 用于每日打卡，以及汇集学习资源。
 
-该 repo (blog) 记录一些开发工具的使用,自己所做的工作,我会在这个 README 中给出链接，便于查询。
+[每日打卡处](./post/every_day_works.md)
 
-[每日打卡](./post/every_day_works.md)
+# 以下为资源汇集 
 
 ## 2019.9
 * [(转)GitHub教程-引子: pull request 是什么含义?](post/what_is_pull_request.md)
@@ -118,6 +119,7 @@
 * [技术书籍源码汇总repo](https://github.com/hanxinle/books-src)
   
 * [xv6-mit](https://pdos.csail.mit.edu/6.828/2012/xv6.html)
+* [xv6-中文文档](https://th0ar.gitbooks.io/xv6-chinese/content/)
 * [xv6 explained](https://github.com/YehudaShapira/xv6-explained)
 * [xv6 github](https://github.com/mit-pdos/xv6-public)
 * [xv6-with-doc](https://github.com/mit-pdos/xv6-riscv)
@@ -126,5 +128,5 @@
 
 * [lynar moon engine-Youtube](https://www.youtube.com/watch?v=PzrJmXz6W7U&list=PLmvHLkJs7MrXB9tCf79HLtXggOyO9lUe1&index=3&t=0s)
 * [lynar moon engine-Youtube-github](https://github.com/LynarStudios/LEMoon)
-* [lynar moon engine-Udemy-Clion]()
+* [lynar moon engine-Udemy-Clion-src](https://bitbucket.org/officiallynarstudios/lynarmoonengine/downloads/)
 
