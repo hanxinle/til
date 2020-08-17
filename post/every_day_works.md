@@ -743,3 +743,28 @@ C+t back
 * 2020-8-13
 
 早起把 cpp 资料汇总到 linux_cpp_notes 中，删掉了原本的 cpp-concepts (cpp-newbie,cpp-begin)。以 Projects 的形式注明自己最近在忙的事情，一共三个，开发及考试。
+
+* 2020=8-17
+
+
+一些 cpp\系统编程\网络编程相关项目：
+
+1. 金山卫士 https://share.weiyun.com/5hxVWP7 
+密码：WbUK
+ 
+1. flamingo IM 
+https://github.com/balloonwj/flamingo 
+
+1. 电驴源码
+链接：https://pan.baidu.com/s/11IceO8vO2e16wsJyPJfM3g  
+密码:omev 
+
+1. filezilla
+链接:
+https://pan.baidu.com/s/1e4IMWobw2OFMmJbHyYAiXA  
+密码: 8vci 
+
+1. 12306
+链接:
+https://pan.baidu.com/s/1qQref2HZVXwBiXOQDo_SoA  
+密码: 6tnm 
