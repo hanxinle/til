@@ -744,7 +744,7 @@ C+t back
 
 早起把 cpp 资料汇总到 linux_cpp_notes 中，删掉了原本的 cpp-concepts (cpp-newbie,cpp-begin)。以 Projects 的形式注明自己最近在忙的事情，一共三个，开发及考试。
 
-* 2020=8-17
+* 2020-8-17
 
 
 一些 cpp\系统编程\网络编程相关项目：
@@ -768,3 +768,7 @@ https://pan.baidu.com/s/1e4IMWobw2OFMmJbHyYAiXA
 链接:
 https://pan.baidu.com/s/1qQref2HZVXwBiXOQDo_SoA  
 密码: 6tnm 
+
+* 2020-8-18
+
+1、事业单位备考第一部分考点学习；2、Linux C 语言从源文件到可执行文件的每个过程，以及 gcc 指令，用 gdb 调试可执行文件的初步教程。
