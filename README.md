@@ -134,3 +134,4 @@
 
 * [CppCon2016 资料](https://github.com/CppCon/CppCon2016)
 * [elastos - 一个物联网（IOT）系统](https://github.com/elastos)
+* [[leanpub Linux C programming -src](https://leanpub.com/linuxsystemprogrammingwithc)](https://github.com/madmax440/gists)
