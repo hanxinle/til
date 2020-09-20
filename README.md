@@ -1,4 +1,4 @@
-# 博客、Github 内容索引
+﻿# 博客、Github 内容索引
 
 我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。
 
@@ -202,3 +202,5 @@
 * [elastos - 一个物联网（IOT）系统](https://github.com/elastos)
 * [书籍：leanpub Linux C programming](https://leanpub.com/linuxsystemprogrammingwithc) 及 [源码](https://github.com/madmax440/gists)
 * [30天自制操作系统源码](https://github.com/yourtion/30dayMakeOS)
+
+
