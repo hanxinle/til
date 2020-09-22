@@ -4,7 +4,7 @@
 
 这个repo (til) 用于每日打卡，以及汇集学习资源。
 
-[每日打卡处](./post/every_day_works.md)
+[每日打卡处](./post/til.md)
 
 # 以下为资源汇集 
 

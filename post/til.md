@@ -12,9 +12,9 @@
 
 * 2019-11-26
 
-1、夏曹俊老师课程关提供了项目建立的模板、S2017项目配置的解释（[在文件夹vs2017_setting](../img/VS2017_Project_Setting/))
+1、夏曹俊老师课程关提供了项目建立的模板、VS2017 项目配置的解释（[在文件夹vs2017_setting](../img/VS2017_Project_Setting/))
 
-2、wmware 桥接模式不能上网如何解决
+2、VMware 桥接模式不能上网如何解决
 
 答：编辑-虚拟网络编辑-更改设置-选桥接模式的那个网络-"桥街"，选择本机在用的物理网卡（去windows的网络适配器查看）
 
@@ -48,7 +48,7 @@ ln    #硬连
 # &1标注输出&2错误输出
 nohup tail -f /var/log/syslog > /dev/null/ &1 (标注输出) or &2(错误输出)
 ```
-4、用户管
+4、用户管理
 
 ```
 # 添加用户(test)，设置密码，用户目录，添加组及该用户所属于的组
@@ -63,11 +63,11 @@ groupadd cpp
 gpasswd -a test cpp
 ```
 
-5、GitHub解决冲突
+5、GitHub 解决冲突
 
 假设用户1修改 xxx文件，并且push了，我这边再修改后push会提示拒绝，有冲突，查看冲突
 
-    git diff master origin/master
+```git diff master origin/master```
 
 建议将该文件备份，然后执行以下操(备份，先拉取再合并）
 
@@ -82,19 +82,19 @@ git push
 
 在机器a上执
 
-    git init --bare /home/hanxinle/xdisk.git
+```git init --bare /home/hanxinle/xdisk.git```
 
 则在该机建立了一个暂存区
 
 在机器b执行
 
-    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+```git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git```
 
 则将repo拉取到本地，在本地创建文件等更改后，执行add,commit,push操作，其它机器执
 
-    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+```git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git```
 
-则可以在得到与机器b一致的repo，PS，把两个操作存在[github_commands.md](github_commands.md)中    
+则可以在得到与机器b一致的repo，PS，把两个操作存在 github_commands.md 中。
 
 * 2019-11-28
 
@@ -143,9 +143,9 @@ g++ hello.o
 
 * 2019-11-30 
 
-1、寄存器64bit表示32bit16bit的寄存器的关系
+1、寄存器 64bit 表示 32bit 16bit 的寄存器的关系
 
-2、CPU表示数据大多小端模式，低位低字节，读取的时候从高位向低位读取，一个变量的地址指的是它的低地址所在的内存地址
+2、CPU 表示数据大多小端模式，低位低字节，读取的时候从高位向低位读取，一个变量的地址指的是它的低地址所在的内存地址
 
 3、网络学习关注如何设计稳定、可靠地协议，传输方案，系统学习关注内存、I/O管理，语言学习关心正确使用库，不要过度学习，频繁造轮子忽略学习目的
 
@@ -155,8 +155,17 @@ g++ hello.o
 
 * 2019-12-1
 
-1、汇编中 lea eax,[xxxh] 是把地址值赋给寄存器，反汇编看到mov eax, dowrd ptr [ebp-20h],mov [eax],O3H 这样的代码，要想到指针初始化及改变指向的值。如 int *p = a; *p =3
+1、汇编中 lea eax,[xxxh] 是把地址值赋给寄存器，反汇编看到 
+```
+mov eax, dowrd ptr [ebp-20h],
+mov [eax],O3H 
+```
 
+这样的代码，要想到指针初始化及改变指向的值。如 
+```
+int *p = a; 
+*p =3;
+```
 2、每个程序运行时都会开辟内存空间（不能视作所有程序共享一块儿极大的内存），该内存空间可分为四块，栈空间、堆空间、代码区、全局区。其中，代码区存放程序中的函数；函数中的局部变量（包括main函数）、函数的参数等信息会在栈中分配空间，程序结束，系统自动回收栈空间。堆空间由用户分配的空间，程序结束后，堆空间不释放，所以程序中需要程序员手动释放申请的内存，否则成为内存泄漏
 
 3、this指针是独享初始化时隐藏初始化的，指向的是对象的地址，即函数调用者的地址值。this位于栈区
@@ -284,7 +293,7 @@ main {
 
 4、多继承：如果子类继承的多个父类都有虚函数，那么子类对象会产生多张虚表
 
-5、static成员变量
+5、static 成员变量
 
 和程序周期同样的生命周期，相较于全局变量，限制了访问方式，防止被修改
 
@@ -418,44 +427,46 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 2、UML的知识概
 
 1）类的表示，类名为首字母大写，类成员第一个单词首字母小写，其余单词首字母大写，操作命名同成员，需要在末尾加上()，表征为类的操作,最后可以添加类的职责（功能描述）。对象作为类的实例，也是位于矩形矿种，冒号左边为实例名，冒号右边为类(实例:类名），无实例名只有类名表示（：类名）匿名对象
+<center>
 
+|      |
 --------
 | 类名 |
---------
 | 成员 |
-|      |
---------
 | 操作 |
-|      |
---------
 |类的描述|
 --------
 
-2<<构造型>>可以作为部分属性的标题，实质是创建新的模型元素解决实际问题
+</center>
 
-3）关于UML如何组织的，请看![下图](../img/uml_conventions.png)
 
-其中最主要的是图中“关联”到“实现”的一些横线，这些线能够帮助梳理类间关系，是OOD的说明工具
+2 <<构造型>>可以作为部分属性的标题，实质是创建新的模型元素解决实际问题
+
+3）关于UML如何组织的，请看
+
+![](../img/uml_conventions.png)
+
+其中最主要的是图中“关联”到“实现”的一些横线，这些线能够帮助梳理类间关系，是 OOD 的说明工具
 
 * 2019-12-21
 
-1、OOD中较常用的关系有调用、继承、实现（使得...生效）、是...的一部分（无法独存）
+1、OOD 中较常用的关系有调用、继承、实现（使得...生效）、是...的一部分（无法独存）
 
-2、TCP传递文件中，可以通过结构体定制协议，但是更加好的做法是，通过protobuf，这样能杜绝多语言通信结构体的对齐等问题，使用json、xml也是可以的，只是速度上会有妥协
+2、TCP 传递文件中，可以通过结构体定制协议，但是更加好的做法是，通过 protobuf，这样能杜绝多语言通信结构体的对齐等问题，使用 json、xml 也是可以的，只是速度上会有妥协;
 
-3、TCPserver封装为类，这个还不太了解，需要去参考代码、实现。暂时想法，数据部分就是要传递的内容，每个server对象就是打开一个端口，等待客户端的输入信息
+3、TCPserver 封装为类，这个还不太了解，需要去参考代码、实现。暂时想法，数据部分就是要传递的内容，每个server对象就是打开一个端口，等待客户端的输入信息
 
 * 2019-12-22
 
 1、第一次直播，确定了两个星期后的任务，定制TCP协议
 
-2、STL中最重要的是容器和算法，从这两个开始学习
+2、STL 中最重要的是容器和算法，从这两个开始学习
 
 3、这两天休息时间过度，应该调整一下自己的作息规律
 
 * 2019-12-29
 
-1、TCP/IP发送、接收文件的c，cpp版本
+1、TCP/IP 发送、接收文件的 c，cpp 版本
 
 * 2019-12-30
 
@@ -473,11 +484,11 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 * 2020-1-6
 
-1、libevent在Linux epoll（同步非阻塞)，在windows下是 Select模式
+1、libevent在Linux epoll（同步非阻塞)，在 Windows 下是 Select模式
 
-2、阻塞IO:BIO,同步非阻塞IO：NIO，异步非阻塞IO：AIO
+2、阻塞 IO:BIO,同步非阻塞 IO：NIO，异步非阻塞IO：AIO
 
-3、阻塞（blocking)结果返回前，当前线程被挂   — socket；非阻塞（nonblocking) 结果返回前，线程不阻 — epoll select;同步（Sync)功能调用无结果不返回，事情一件件做；异步（Async):功能调用后无结果立即返回，等待通知，一件事情没完成就可以做下一件
+3、阻塞（blocking) 结果返回前，当前线程被挂   — socket；非阻塞（nonblocking) 结果返回前，线程不阻 — epoll select;同步（Sync) 功能调用无结果不返回，事情一件件做；异步（Async):功能调用后无结果立即返回，等待通知，一件事情没完成就可以做下一件
 
 * 2020-1-7
 
@@ -507,11 +518,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 1、网络之服务
 
-* 2020-1-17
-
-1
-
-* 2020-1-18
+* 2020-1-17~18
 
 回家过年遇上肺炎疫情
 
@@ -523,7 +530,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 * 2020-2-21
 
-1、stl初步，template、regex、memory、string、exception。项目：bitcion.cpp（未消化）
+1、stl 初步，template、regex、memory、string、exception。项目：bitcion.cpp（未消化）
 
 * 2020-2-22
 
@@ -541,11 +548,11 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 * 2020-3-11
 
-1、stl：algorithm完成 1/3；design_pattern 中template method、strategy
+1、stl：algorithm 完成 1/3；design_pattern 中template method、strategy
 
 * 2020-3-20
 
-1、OS 中的process，及其在Linux下应用
+1、OS 中的 process，及其在 Linux 下应用
 
 * 2020-3-21
 
@@ -593,7 +600,7 @@ Ever tried, ever failed. No matter, try again, fail again, fail better. The worl
 
 * 2020-4-9
 
-1、提前练习会儿书法，在记笔记的时候，写字比较顺利甚至有点享受2、有思考地读书，能够提升自己信息吸收得速度及信息提取的质量3、对所做事情有个认真的态度的话，对事情的推进、进度、质量才有相当力度（认真是一种纪律，像运动一样天天进行）4、自己以前唯一能做到的事情——入迷，现在就是缺少入迷，对现实世界不能入戏5、抓其他工作的前提是要抓思想建设，这是毛主席影视作品学到的
+1、提前练习会儿书法，在记笔记的时候，写字比较顺利甚至有点享受；2、有思考地读书，能够提升自己信息吸收得速度及信息提取的质量；3、对所做事情有个认真的态度的话，对事情的推进、进度、质量才有相当力度（认真是一种纪律，像运动一样天天进行）；4、自己以前唯一能做到的事情——入迷，现在就是缺少入迷，对现实世界不能入戏；5、抓其他工作的前提是要抓思想建设，这是毛主席影视作品学到的。
 
 * 2020-4-10
 
@@ -817,6 +824,6 @@ rest
 
 1、文档整理，接下来 网盘项目和编译原理这部分。
 
-* 2020-17~21
+* 2020-9-17~21
 
 Clean the room

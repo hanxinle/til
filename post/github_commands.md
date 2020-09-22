@@ -62,19 +62,19 @@ git push
 
  在机器a上执行
 
-    git init --bare /home/hanxinle/xdisk.git
+```git init --bare /home/hanxinle/xdisk.git```
 
 则在该机建立了一个暂存区。
 
 在机器b执行
 
-    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+```git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git```
 
 则将repo拉取到本地，在本地创建文件等更改后，执行add,commit,push操作，其它机器执行
 
-    git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git
+```git clone hanxinle@xx.mm.yy.zz:/home/hanxinle/xdisk.git```
 
-则可以在得到与机器b一致的repo.
+则可以在得到与机器 b 一致的 repo。
 
 ### 远程repo
   
@@ -135,7 +135,7 @@ git push
     生成公有\私有key
 
          
-       ssh-keygen
+ ```ssh-keygen```
         
   
      一路回车,在.ssh文件夹中,id_rsa 为私有,id_rsa.pub 为公有,在github中点击右上角自己的头像,选择setting,在ssh相关设置
@@ -143,11 +143,11 @@ git push
       
 中,点击NEW SSH KEY,将id_rsa.pub的内容复制进来,此时push还是需要用户名密码,有两种方式可以免输入,一种
       
-       vim .git/config
+```vim .git/config```
           
-      将 url=https:xxxxx 更改,它的值在网页端打开 github repo的时候,选择clone or download 按钮,会有 use ssh一项,
+      将 url=https:xxxxx 更改,它的值在网页端打开 github repo 的时候,选择 clone or download 按钮,会有 use ssh 一项,
             
-点击这一项,复制url链接到.git/config文件替换 url=<url_value> 这一项.
+点击这一项,复制url链接到 .git/config 文件替换 url=<url_value> 这一项.
 
       另一种方式是在clone 命令时,不要通过https命令操作,直接通过 上面这个ssh的url方式操作.
    
@@ -159,7 +159,7 @@ git push
 
    ```git remote -v```
 
-* 添加upstream分支
+* 添加 upstream 分支
 
    ```git remote add upstream git@xxxx.git```
 
@@ -167,7 +167,7 @@ git push
 
    ```git fetch upstream```
    
-* 再合并upstream master
+* 再合并 upstream master
 
    ```git merge upstream/master```
    
