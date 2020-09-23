@@ -203,4 +203,4 @@
 * [书籍：leanpub Linux C programming](https://leanpub.com/linuxsystemprogrammingwithc) 及 [源码](https://github.com/madmax440/gists)
 * [30天自制操作系统源码](https://github.com/yourtion/30dayMakeOS)
 
-
+*[quicklisp 文档](https://www.quicklisp.org/beta/UNOFFICIAL/docs/)
