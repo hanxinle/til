@@ -72,7 +72,10 @@
 * [操作系统真象还原-src-1/3](./os_truth_src)
 * [操作系统真象还原-src-2/3](./OS_lab-master)
 * [操作系统真象还原-src-3/3](./tiny-os-master)
-
+* 
+* [Windows 程序设计（第5版）](./Windows-programming-5th)
+* [30天自制操作系统-src](./30天自制操作系统)
+* [多核和 GPU 编程课程资料（源码、课后答案、勘误） ](./multi_cores_gpu_programming)
 
 ## 2019.9
 * [(转)GitHub教程-引子: pull request 是什么含义?](post/what_is_pull_request.md)
@@ -202,5 +205,4 @@
 * [elastos - 一个物联网（IOT）系统](https://github.com/elastos)
 * [书籍：leanpub Linux C programming](https://leanpub.com/linuxsystemprogrammingwithc) 及 [源码](https://github.com/madmax440/gists)
 * [30天自制操作系统源码](https://github.com/yourtion/30dayMakeOS)
-
-*[quicklisp 文档](https://www.quicklisp.org/beta/UNOFFICIAL/docs/)
+* [quicklisp 文档](https://www.quicklisp.org/beta/UNOFFICIAL/docs/)
