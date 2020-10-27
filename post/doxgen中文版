@@ -1,0 +1,68 @@
+# 使用时将该文件重命名为： Doxgen
+# 项目名称，将作为于所生成的程序文档首页标题，需要使用双引号括住
+PROJECT_NAME = “xxx”
+
+# 文档版本号，可对应于项目版本号，譬如 git、svn、cvs 所生成的项目版本号
+PROJECT_NUMBER = “1.0.0”
+
+# 程序文档输出目录，产生的文件会放在这个路径之下。如果没有填这个路径，将会以当前所在路径来作为输出路径。
+OUTPUT_DIRECTORY = doc/
+
+# 程序文档语言环境，预设为 English。1.2.16 版后，可以用 Chinese 输出简体中文，也可以使用 
+# Chinese-Traditional 来输出中文繁体的格式。
+OUTPUT_LANGUAGE = Chinese
+
+# 如果是制作 C 程序文档，该选项必须设为YES，否则默认生成 C++ 文档格式
+OPTIMIZE_OUTPUT_FOR_C = YES
+
+# 对于使用 typedef 定义的结构体、枚举、联合等数据类型，只按照 typedef 定义的类型名进行文档化
+TYPEDEF_HIDES_STRUCT = YES
+
+# 把这个标记设置为Yes，即使各个类或函数没有文档，也要提取信息
+EXTRACT_ALL = YES
+
+# 把这个标记设置为Yes，文档就会包含类的私有数据成员
+EXTRACT_PRIVATE = YES
+
+# 把这个标记设置为Yes，文档就会包含文件的静态成员(函数和变量)
+EXTRACT_STATIC = YES
+
+# 在 C++ 程序文档中,该值可以设置为 NO，而在 C 程序文档中，由于 C 语言没有所谓的域/名字空间
+# 这样的概念，所以此处设置为 YES
+HIDE_SCOPE_NAMES = YES
+
+# 让 doxygen 静悄悄地为你生成文档，只有出现警告或错误时，才在终端输出提示信息
+QUIET = YES
+
+# 这个标记创建一个以空格分隔的所有目录的列表，
+# 这个列表包含需要生成文档的 C/C++ 源代码文件和头文件，可以不设定，即为当前目录!
+INPUT = inc/
+
+# 输入文件的编码格式，需要自己根据INPUT指定的文件选择，否则会乱码
+INPUT_ENCODING = UTF-8
+
+# 在默认情况下,doxygen 会搜索具有典型 C/C++ 扩展名的文件，
+# 比如 .c、.cc、.cpp、.h 和 .hpp 。
+# 可以使用如下形式的列表方式,指定INPUT下要处理的文件
+# 注:文件类型后有空格然后是右斜杠然后回车,每一个文件类均独自一行!
+# FILE_PATTERNS = *.h \
+                  *.c \
+                  *.cpp
+FILE_PATTERNS =
+
+# 递归遍历由 INPUT 所指定的目录及其所有子目录，寻找由 FILE_PATTERNS 指定的要被文档化的文件
+RECURSIVE = YES
+
+# 如果您有特定文件或目录，不希望经过 Doxygen 处理，那你可在这指出，没有就不指出
+# 例如:EXCLUDE = /home/xxx/src_root /home/xxx/test
+EXCLUDE =
+
+# 类似于 FILE_PATTERNS 的用法，只是这个是供 EXCLUDE 所使用
+EXCLUDE_PATTERNS =
+
+# 若设定为 YES，就会产生 HTML 版本的说明文件。HTML 文件是 Doxygen 预设产生的格式之一
+GENERATE_HTML = YES
+
+# 若设定为 YES，Doxygen 会帮您产生一个树状结构，在页面左侧，默认为 NO
+# 这个树状结构是以 JavaScript 所写成。所以需要新版的 Browser 才能正确显示。
+GENERATE_TREEVIEW = YES
