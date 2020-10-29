@@ -1,9 +1,9 @@
 ﻿# 博客、Github 内容索引
 
-我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。
+我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。另，因为 GitHub 托管博客访问受限制，在 gitee 上布置了新的[博客](http://hanxinle.gitee.io/blog)。
 
 这个repo (til) 用于每日打卡，以及汇集学习资源。
-http://hanxinle.gitee.io/blog
+
 [每日打卡处](./post/til.md)
 
 # 以下为资源汇集 
