@@ -7,11 +7,11 @@
 
 * [http 服务器(C++)](https://github.com/hanxinle/http-server)
 * [windows 程序设计(C++)](https://github.com/hanxinle/windows-programming)
-* [自然语言处理](https://github.com/hanxinle/nlp)
 * [MySql](https://github.com/hanxinle/mysql)
 * [数字图像处理(matlab版)](https://github.com/hanxinle/matlab_image_processing)
 * [机器学习实践](https://github.com/hanxinle/practical_machine_learning)
-* [GitHub 命令行](https://github.com/hanxinle/til/blob/master/post/github_commands.md))
+* [自然语言处理](https://github.com/hanxinle/nlp)
+* [GitHub 命令行](https://github.com/hanxinle/til/blob/master/post/github_commands.md)
 
 
 # 以下为资源汇集 
