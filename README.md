@@ -9,8 +9,8 @@
 * [windows 程序设计(C++)](https://github.com/hanxinle/windows-programming)
 * [MySql](https://github.com/hanxinle/mysql)
 * [数字图像处理(matlab)](https://github.com/hanxinle/matlab_image_processing)
-* [机器学习实践](Python)(https://github.com/hanxinle/practical_machine_learning)
-* [自然语言处理](Python,Java)(https://github.com/hanxinle/nlp)
+* [机器学习实践(Python)](https://github.com/hanxinle/practical_machine_learning)
+* [自然语言处理(Python,Java)](https://github.com/hanxinle/nlp)
 * [GitHub 命令行](https://github.com/hanxinle/til/blob/master/post/github_commands.md)
 
 
