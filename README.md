@@ -1,4 +1,4 @@
-﻿# 博客、Github 内容索引
+﻿# 博客、GitHub 内容索引
 
 我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。另，因为 GitHub 托管博客访问受限制，在 gitee 上布置了新的[博客](http://hanxinle.gitee.io/blog)。
 
@@ -18,7 +18,7 @@
 
 # [书籍源码地址](https://github.com/hanxinle/books-src)
 
->PS:以下链接打不开的话去[这里](https://github.com/hanxinle/books-src)寻找，内容都是从刚刚 books-src 链接复制的，这里就做个目录，不改了。
+>PS:以下链接打不开的话去[这个仓库](https://github.com/hanxinle/books-src)寻找，当前仓库链接大多都是从那个仓库复制的。
 
 * [tlpi-book](./tlpi-book)
 
