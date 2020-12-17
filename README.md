@@ -13,7 +13,7 @@
 * [自然语言处理(Python,Java)](https://github.com/hanxinle/nlp)
 * [GitHub 命令行](https://github.com/hanxinle/til/blob/master/post/github_commands.md)
 
-
+PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[以学术为业](./post/science_as_vocation.md)
 # 以下为资源汇集 
 
 # [书籍源码地址](https://github.com/hanxinle/books-src)
