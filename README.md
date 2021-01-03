@@ -218,3 +218,7 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 ## 2020.10
 
 * [doxygen 语法](./post/doxygen语法.md)
+
+## 2021.1
+
+* [IntelliJ 使用教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
