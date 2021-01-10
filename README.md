@@ -222,3 +222,4 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 ## 2021.1
 
 * [IntelliJ 使用教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
+* [software tools tutorial C语言版本](http://www.andreadrian.de/software_tools/index.html)
