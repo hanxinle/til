@@ -875,3 +875,7 @@ Windows is shit.Stop learn deep about it.
 * 2021-1-4~10
 
 系统，开始做一些算法题目
+
+* 2021-1-14
+
+已投简历，并且算法题开始稳步搞起，接下来补足其它技术及经营 GitHub、博客。
