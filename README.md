@@ -223,3 +223,8 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 
 * [IntelliJ 使用教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 * [software tools tutorial C语言版本](http://www.andreadrian.de/software_tools/index.html)
+
+## 2021.2
+
+* [brpc](https://github.com/legendzhouqiang/BRPC/blob/master/README_cn.md)
+* [rest_rpc](https://mp.weixin.qq.com/s/cpJ5FXh372luZbL-L-Kdjw) [GitHub](https://github.com/qicosmos/rest_rpc)
