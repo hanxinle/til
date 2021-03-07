@@ -216,7 +216,6 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 * [quicklisp 文档](https://www.quicklisp.org/beta/UNOFFICIAL/docs/)
 
 ## 2020.10
-
 * [doxygen 语法](./post/doxygen语法.md)
 
 ## 2021.1
@@ -229,3 +228,4 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 * [brpc](https://github.com/legendzhouqiang/BRPC/blob/master/README_cn.md)
 * [rest_rpc](https://mp.weixin.qq.com/s/cpJ5FXh372luZbL-L-Kdjw) [GitHub](https://github.com/qicosmos/rest_rpc)
 * [设计模式 cpp 实现](https://github.com/JakubVojvoda/design-patterns-cpp)
+* [Learning Opencv3 examples](https://github.com/oreillymedia/Learning-OpenCV-3_examples)
