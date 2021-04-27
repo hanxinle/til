@@ -941,3 +941,7 @@ Windows is shit.Stop learn deep about it.
 * 2021-4-5
 
 最近完成了一个 qt 项目，目前在 stl 进阶。
+
+* 2021-4-21
+
+项目完成了三个，gitee博客开张。
