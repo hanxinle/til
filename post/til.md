@@ -945,3 +945,7 @@ Windows is shit.Stop learn deep about it.
 * 2021-4-21
 
 项目完成了三个，gitee博客开张。
+
+* 2021-5-31
+
+改变了思想，5月17日就入职了，这两三周一直在编译 WebRTC，自己转到音视频领域耕耘了。
