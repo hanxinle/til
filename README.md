@@ -1,4 +1,4 @@
-﻿# 博客、GitHub 内容索引
+﻿﻿# 博客、GitHub 内容索引
 
 我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。另，因为 GitHub 托管博客访问受限制，在 gitee 上布置了新的[博客](http://hanxinle.gitee.io/blog)。
 
@@ -114,7 +114,7 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 ## 2019.11
 
 * [BEYOND Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
-   
+  
    PS: 不仅是随书代码,而是一套教程.
 * [自然语言处理 知识体系(博客)](https://www.cnblogs.com/hanxinle/p/11864806.html) [GitHub](https://github.com/hanxinle/nlp/blob/master/nlp_start.md)
 * [Spacy、NLTK 教程](https://github.com/hanxinle/nlp/tree/master/Spacy_NLTK)
@@ -192,7 +192,7 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 * [Let Over Lambda - src](https://github.com/hanxinle/let-over-lambda)
 * [on lisp](https://github.com/hanxinle/on-lisp)
 * [practical common lisp](https://github.com/hanxinle/practical-common-lisp)
- 
+
 * [技术书籍源码汇总repo](https://github.com/hanxinle/books-src)
   
 * [xv6-mit](https://pdos.csail.mit.edu/6.828/2012/xv6.html)
@@ -234,6 +234,10 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 
 * [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
 
-## 2021.4
+## 2021.4 
 
 * [IT 书籍下载](https://github.com/forthespada/CS-Books)
+
+## 2021.8
+
+* [HelloGithub](https://hellogithub.com/periodical/volume/64/) 每周甚至每天都会分享一些有价值的 GitHub 项目，节约了自己搜集资料的时间。
