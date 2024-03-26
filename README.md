@@ -1,4 +1,4 @@
-﻿﻿# 博客、GitHub 内容索引
+﻿# 博客、GitHub 内容索引
 
 我的旧博客在[博客园](https://www.cnblogs.com/hanxinle/)，这个博客记录的内容是零碎的，不便于查找资料。因此，我在2019-11-25 update: 基于 Github 建立了[新博客](https://hanxinle.github.io/)，我会把自己旧博客的精华及最新的学习成果更新在新博客。另，因为 GitHub 托管博客访问受限制，在 gitee 上布置了新的[博客](http://hanxinle.gitee.io/blog)。
 
@@ -241,3 +241,4 @@ PS: 这部分有学术研究的内容，先附上一篇醍醐灌顶之作——[
 ## 2021.8
 
 * [HelloGithub](https://hellogithub.com/periodical/volume/64/) 每周甚至每天都会分享一些有价值的 GitHub 项目，节约了自己搜集资料的时间。
+
